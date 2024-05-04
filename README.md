@@ -1,17 +1,40 @@
-# Web Queue
+# django_mongodb_template
 
-This is a repository with the final practical work
-on the for the subject of distributed databases of the RTU MIREA.
-The purpose of the practice is to write a web application using the mongo database.
+Template for creating a Django application with a MongoDB in Docker
 
+## Introduction
 
-# Running
+This repository is a ready-made template for creating a web application using the Django framework, MongoDB database and containerization using Docker.
+If you are looking for a quick start to develop a web application that provides scalability and flexibility, then you have come to the right place.
 
-To run the program, you need to build and run *docker-compose*
+## Requirements
+
+This module requires the following:
+
+* [Docker](https://www.docker.com/get-started)
+* Any version of Linux or Unix OS (Recommended and Optional)
+
+## Installation
+
+To build an application, run on the command line:
+
 ```
 docker-compose build
-docker-compose up
 ```
 
-The website will be launched at http://0.0.0.0:8000/
-and mongo-express at http://0.0.0.0:8081/
+And to run the application, run:
+
+```
+docker-compose up -d
+```
+
+## Ugins
+
+### Website
+
+In this template, the web application runs on port 8000.
+
+### Web-based MongoDB admin interface
+
+This template also creates a web-based user inteface for MongoDB called [mongo-express](https://github.com/mongo-express/mongo-express) through port 8081.
+
