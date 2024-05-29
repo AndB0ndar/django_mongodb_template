@@ -1,6 +1,6 @@
 # django_mongodb_template
 
-Template for creating a Django application with a MongoDB in Docker
+Template for creating a Django application with a MongoDB in Docker container
 
 ## Introduction
 
@@ -28,7 +28,7 @@ And to run the application, run:
 docker-compose up -d
 ```
 
-## Ugins
+## Using
 
 ### Website
 
